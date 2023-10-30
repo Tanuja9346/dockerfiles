@@ -1,2 +1,3 @@
-FROM centos:8
+FROM almalinux:8
+#almalinux same as centos
 RUN yum install nginx -y
