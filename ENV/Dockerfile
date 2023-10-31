@@ -1,4 +1,4 @@
-FROM almalinux:80
+FROM almalinux:8
 ENV NAME=SIVAKUMAR \
     AGE=26 \
     ADDRESS=HYDERABADH
