@@ -1,4 +1,4 @@
-FROM linux
+FROM nginx
 #removing default html
 RUN rm -rf /usr/share/nginx/html/index.html
 #files should be available in current directory where dockerfiles exist.
