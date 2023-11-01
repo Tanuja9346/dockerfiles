@@ -5,6 +5,6 @@ RUN echo "version passed by user is: ${version}"
 ARG COURSE
 ARG TRAINER
 # if u want to acess values in container then give
-ENV COURSE={COURSE}
+ENV COURSE=${COURSE}
 ENV TRAINER=${TRAINER}
 RUN echo "course is:${COURSE}, trainer is:${TRAINER}"
