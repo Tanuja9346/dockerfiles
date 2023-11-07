@@ -5,4 +5,5 @@ RUN echo "hello, welcome to dockerfile. a way of creating own images" > /usr/sha
 RUN yum install git -y \
     && yum install maven -y \
     &&  yum install gcc -y
+RUN echo "HELLO WORLD"
 CMD [ "nginx" ,"-g", "daemon off;" ]
